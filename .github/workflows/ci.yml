@@ -13,5 +13,5 @@ jobs:
         with:
           smalltalk-image: Pharo64-12
       - name: Run tests
-        run: smalltalkci -s ${{ matrix.smalltalk }}
+        run: smalltalkci -s Pharo64-12
         timeout-minutes: 15
