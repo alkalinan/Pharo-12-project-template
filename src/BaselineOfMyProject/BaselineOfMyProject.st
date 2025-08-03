@@ -8,8 +8,6 @@ Class {
 BaselineOfMyProject >> baseline: spec [
 	<baseline>
 	spec for: #common do: [
-		spec package: 'MyProject'.
-		spec group: 'default' with: #( 'MyProject').
-		spec group: 'Tests' with: #('MyProject').
+		spec package: 'MyProject'
 	]
 ]
