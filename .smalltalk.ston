@@ -1,7 +1,8 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'baselineName',
+
+      #baseline : 'MyProject',
       #directory : 'src',
       #ignoreImage : true,
       #onConflict : #useIncoming,
@@ -10,8 +11,9 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'baselineName.*' ],
+      #packages : [ 'MyProject.*' ],
       #format : #lcov
     }
   }
 }
+
