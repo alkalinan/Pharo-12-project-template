@@ -3,3 +3,8 @@ Class {
 	#superclass : #Object,
 	#package : 'MyProject'
 }
+
+{ #category : 'accessing' }
+MyClass >> helloWorld [
+	^ 'hello world'
+]
