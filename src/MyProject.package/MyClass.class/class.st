@@ -1,4 +1,5 @@
-Object subclass: #MyClass
-	instanceVariableNames: ''
-	classVariableNames: ''
-	package: 'MyProject'
+Class {
+	#name : #MyClass,
+	#superclass : #Object,
+	#package : 'MyProject'
+}

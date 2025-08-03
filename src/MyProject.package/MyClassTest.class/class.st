@@ -1,4 +1,5 @@
-TestCase subclass: #MyClassTest
-	instanceVariableNames: ''
-	classVariableNames: ''
-	package: 'MyProject'
+Class {
+	#name : #MyClassTest,
+	#superclass : #TestCase,
+	#package : 'MyProject'
+}
