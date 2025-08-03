@@ -1,6 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
+
       #baseline : 'MyProject',
       #directory : 'src',
       #ignoreImage : true,
@@ -15,3 +16,4 @@ SmalltalkCISpec {
     }
   }
 }
+
